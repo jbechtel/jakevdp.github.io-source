@@ -1,6 +1,6 @@
-# Source for http://jakevdp.github.io
+# Source for http://jbechtel.github.io
 
-This repository contains the source for http://jakevdp.github.io/.
+This repository contains the source for http://jbechtel.github.io/.
 
 ## Building the Blog
 

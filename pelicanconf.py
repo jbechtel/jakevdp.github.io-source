@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Jake VanderPlas'
-SITENAME = 'Pythonic Perambulations'
-SITESUBTITLE = u'Musings and ramblings through the world of Python and beyond'
+AUTHOR = 'Jonathon Bechtel'
+SITENAME = 'Data Blog'
+SITESUBTITLE = u'Introductory data science explored with Jupyter notebooks '
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
@@ -50,12 +50,12 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 THEME = './theme/'
 
 ABOUT_PAGE = '/pages/about.html'
-TWITTER_USERNAME = 'jakevdp'
-GITHUB_USERNAME = 'jakevdp'
-STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/2937831/jakevdp'
-AUTHOR_WEBSITE = 'http://vanderplas.com'
-AUTHOR_BLOG = 'http://jakevdp.github.io'
-AUTHOR_CV = "http://staff.washington.edu/jakevdp/media/pdfs/CV.pdf"
+TWITTER_USERNAME = ''
+GITHUB_USERNAME = 'jbechtel'
+STACKOVERFLOW_ADDRESS = ''
+AUTHOR_WEBSITE = 'http://jonathonbechtel.com'
+AUTHOR_BLOG = 'http://jbechtel.github.io'
+AUTHOR_CV = ""
 SHOW_ARCHIVES = True
 SHOW_FEED = False  # Need to address large feeds
 
