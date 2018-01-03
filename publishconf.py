@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://jakevdp.github.io'
+SITEURL = 'http://jbechtel.github.io'
 RELATIVE_URLS = False
 
 SHOW_FEED = True
@@ -20,5 +20,5 @@ FEED_USE_SUMMARY = True  # from the feed_summary plugin
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISQUS_SITENAME = "pythonicperambulations"
-GOOGLE_ANALYTICS = "UA-34061646-1"
+DISQUS_SITENAME = ""
+GOOGLE_ANALYTICS = ""
