@@ -14,6 +14,7 @@ div.text_cell_render {
     padding: 0;
 }
 
+
 div.prompt {
     font-size: 13px;
 }
@@ -44,4 +45,12 @@ table.dataframe th, td {
 
 pre code {
     background-color: inherit;
+}
+div.output_stream{
+    max-width:700px;
+}
+
+div.text_cell{
+padding-top:.6em;
+padding-bottom:.2em;
 }

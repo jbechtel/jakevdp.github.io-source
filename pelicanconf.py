@@ -61,7 +61,8 @@ SHOW_FEED = False  # Need to address large feeds
 
 ENABLE_MATHJAX = True
 
-STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico']
+STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Footer info
 
