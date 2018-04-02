@@ -5,6 +5,11 @@
 .text_cell .prompt {
     display: none;
 }
+/*
+div.text_cell{
+    font-family : Palatino, URW Palladio L, serif;
+}
+*/
 
 div.cell {
     padding: 0;
@@ -24,13 +29,33 @@ div.input_prompt {
 }
 
 div.output_prompt {
-    padding: .4em .2em;
+    padding: .4em .4em;
+}
+div.input_prompt, div.output_prompt{
+margin-left:-16ex;
 }
 
 div.input_area {
     margin: .2em 0.4em;
-    max-width: 580px;
+    max-width: 700px;
 }
+div.output_area {
+    max-width: 700px;
+}
+div.output_subarea {
+    margin-left:-11ex;
+    max-width: 700px;
+}
+div.output_png{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+div.output_execute_result{
+    margin-left:-0ex;
+    max-width:700px;
+}
+
 
 table.dataframe {
     font-family: Arial, sans-serif;
@@ -41,16 +66,4 @@ table.dataframe {
 table.dataframe th, td {
     padding: 4px;
     text-align: left;
-}
-
-pre code {
-    background-color: inherit;
-}
-div.output_stream{
-    max-width:700px;
-}
-
-div.text_cell{
-padding-top:.6em;
-padding-bottom:.2em;
 }
