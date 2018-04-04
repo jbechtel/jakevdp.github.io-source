@@ -66,5 +66,5 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Footer info
 
-LICENSE_URL = "https://github.com/jakevdp/jakevdp.github.io-source/blob/master/LICENSE"
+LICENSE_URL = "https://github.com/jbechtel/jbechtel.github.io-source/blob/master/LICENSE"
 LICENSE = "MIT"
