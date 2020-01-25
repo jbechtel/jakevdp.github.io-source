@@ -9,3 +9,6 @@ $ pelican-quickstart
 $ git submodule add git://github.com/danielfrg/pelican-ipynb.git plugins/ipynb
 $ git submodule add git://github.com/getpelican/pelican-plugins.git plugins/pelican-plugins
 ```
+Use bash develop_server.sh to test blog locally
+bash publish-to-github to psh to jbechte.github.io
+
